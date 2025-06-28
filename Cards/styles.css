@@ -1,0 +1,142 @@
+
+      body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: "Mulish", sans-serif;
+      }
+
+      .root {
+        width: 800px;
+        height: 600px;
+        background: url(/images/bg.png);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #252831;
+      }
+
+      .product {
+        width: 680px;
+        height: 400px;
+
+        display: flex;
+        background-color: #2a2f40;
+      }
+
+      .left {
+        width: 55%;
+        height: 100%;
+        position: relative;
+        border-radius: 0px 50% 50% 0px;
+        background-color: rgb(233, 72, 14);
+      }
+      .shoe {
+        position: absolute;
+        top: 50px;
+        left: -75px;
+        width: 460px;
+      }
+
+      .right {
+        width: 45%;
+
+        padding: 25px;
+      }
+
+      .content {
+        margin-top: 80px;
+      }
+
+      .logo {
+        color: rgb(233, 72, 14);
+        font-size: 23px;
+        font-weight: 600;
+      }
+      .winter {
+        font-size: 20px;
+      }
+      .men {
+        font-size: 28px;
+        font-weight: 600;
+      }
+      .price {
+        display: flex;
+        gap: 35px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .price1 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .price2 {
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: line-through;
+        text-decoration-color: red;
+      }
+      .size {
+        display: flex;
+        font-size: 10px;
+        font-weight: 600;
+        gap: 25px;
+        align-items: center;
+      }
+      .sizenum span {
+        margin-right: 29px;
+      }
+
+      .color {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-top: 25px;
+      }
+
+      .colorbox {
+        display: flex;
+        gap: 35px;
+      }
+
+      .yellow {
+        width: 15px;
+        height: 15px;
+        background-color: black;
+        border-radius: 50%;
+      }
+      .black {
+        width: 15px;
+        height: 15px;
+        background-color: yellow;
+        border-radius: 50%;
+      }
+      .blue {
+        width: 15px;
+        height: 15px;
+        background-color: blue;
+        border-radius: 50%;
+      }
+      .s {
+        font-size: 12px;
+      }
+
+      .wm {
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+      }
+
+      .footer {
+        display: flex;
+        gap: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      .footer span {
+        font-size: 12px;
+      }
+ 
